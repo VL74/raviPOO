@@ -1,3 +1,6 @@
+from pygame.math import Vector3, Vector2
+
+
 class Creep():
 
     def __init__(self):
