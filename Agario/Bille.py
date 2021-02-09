@@ -1,3 +1,6 @@
+from pygame.math import Vector2, Vector3
+
+
 class Bille():
 
     def __init__(self):
@@ -8,8 +11,14 @@ class Bille():
 
     def suivre(self):
 
+        pass
+
     def mourir(self):
 
+        pass
+
     def manger(self):
+
+        pass
 
     pass

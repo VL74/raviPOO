@@ -1,7 +1,7 @@
 from pygame.math import Vector2, Vector3
 
 
-class Player(object):
+class Player():
 
     def __init__(self):
         self.size = 5
@@ -11,15 +11,23 @@ class Player(object):
         self.forme = "rond"
         self.color = Vector3(50,50,50)
 
-    def Deplacer(self):
+    def deplacer(self):
 
-    def Manger(self):
+        pass
 
-    def Afficher(self):
+    def manger(self):
 
-    def Mourir(self):
+        pass
 
-    pass
+    def afficher(self):
+
+        pass
+
+    def mourir(self):
+
+        pass
+
+pass
 
 
 

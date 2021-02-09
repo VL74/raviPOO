@@ -6,3 +6,5 @@ class Game():
         self.hauteur = 400
         self.largeur = 400
         self.game_over = 0
+
+    pass
